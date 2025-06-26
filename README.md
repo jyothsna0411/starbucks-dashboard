@@ -156,6 +156,6 @@ You now have a **fully working, deployed Streamlit dashboard** showing:
 * Nutritional info from Starbucks’ menu
 * Top cities by Starbucks store count
   And it's hosted at:
-  👉 `https://starbucks-dashboard-...streamlit.app`
+  👉 `https://starbucks-dashboard-3zo3xed5akcnhiran3ntib.streamlit.app/`
 
 ---
