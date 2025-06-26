@@ -6,13 +6,7 @@ st.set_page_config(layout="wide")
 st.title("☕ Starbucks Dashboard")
 
 menu_df = load_menu_data()
-store_df = load_store_data()
-st.write("📍 Store DataFrame Columns:", store_df.columns.tolist())
 
-
-# Optional debug info
-st.write("📋 Menu DataFrame Columns:", menu_df.columns.tolist())
-st.write(menu_df.head())
 
 # Show chart
 st.header("📊 Fat vs Calories in Starbucks Menu")
