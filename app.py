@@ -5,8 +5,9 @@ from visualizations import top_cities, plot_caffeine_vs_calories
 st.set_page_config(layout="wide")
 st.title("☕ Starbucks Dashboard")
 
+# Load the data
 menu_df = load_menu_data()
-
+store_df = load_store_data()  # <--- This line was missing
 
 # Show chart
 st.header("📊 Fat vs Calories in Starbucks Menu")
