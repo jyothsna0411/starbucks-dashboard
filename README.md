@@ -33,9 +33,6 @@ pip install streamlit pandas plotly
 
   * `starbucks_menu.csv`
   * `starbucks_locations.csv`
-
-> ✅ You ensured the filenames and folder matched the code paths exactly: `data/starbucks_menu.csv` and `data/starbucks_locations.csv`.
-
 ---
 
 ### 🔹 3. **Write Python Scripts**
@@ -82,13 +79,6 @@ def plot_caffeine_vs_calories(df):
 ```bash
 streamlit run app.py
 ```
-
-> You debugged errors like:
-
-* Missing `Caffeine (mg)` → Replaced with `Fat (g)`
-* Column `City` not found → Corrected to `city`
-* File path errors → Ensured CSVs were in a `data/` folder
-
 ---
 
 ### 🔹 5. **Initialize Git & Push to GitHub**
@@ -134,9 +124,6 @@ pandas==2.3.0
 plotly==6.2.0
 # and other packages...
 ```
-
-> This helped resolve `ModuleNotFoundError` on Streamlit Cloud.
-
 ---
 
 ### 🔹 8. **Final Touches**
