@@ -7,7 +7,7 @@ st.title("☕ Starbucks Dashboard")
 
 # Load the data
 menu_df = load_menu_data()
-store_df = load_store_data()  # <--- This line was missing
+store_df = load_store_data()  
 
 # Show chart
 st.header("📊 Fat vs Calories in Starbucks Menu")
